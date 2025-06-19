@@ -13,7 +13,7 @@
   "description": "Node.js bindings for the clip.cpp library",
   "scripts": {
     "build:dev": "bear -- node-gyp rebuild configure build",
-    "build": "node-gyp rebuild configure build && tsc",
+    "build": "node-gyp rebuild --runtime=electron --target=35.5.1 --dist-url=https://electronjs.org/headers --arch=arm64 && tsc",
     "test": "tsx test/test.ts"
   },
   "dependencies": {
