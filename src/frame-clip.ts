@@ -1,15 +1,16 @@
 import path from "node:path"
 import bindings from "bindings"
 
-const addon = bindings("frame-clip") as {
-  imagesToEmbeddings(modelPath: string, images: Buffer[]): Float32Array[]
-  textToEmbedding(modelPath: string, text: string): Float32Array
+const addon = bindings("frame-clip")
+
+export function loadModel(modelPath: string): object {
+  return addon.loadModel(modelPath)
 }
 
-export function imagesToEmbeddings(modelPath: string, images: Buffer[]): Float32Array[] {
-  return addon.imagesToEmbeddings(modelPath, images)
+export function imageToEmbedding(model: object, image: Buffer): Float32Array {
+  return addon.imageToEmbedding(model, image)
 }
 
-export function textToEmbedding(modelPath: string, text: string): Float32Array {
-  return addon.textToEmbedding(modelPath, text)
+export function textToEmbedding(model: object, text: string): Float32Array {
+  return addon.textToEmbedding(model, text)
 }
