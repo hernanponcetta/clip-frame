@@ -1,0 +1,11 @@
+node_modules/
+
+build/*
+!build/Release/
+!build/Release/*.node
+
+test/models/*
+
+compile_commands.json
+.DS_Store
+.cache

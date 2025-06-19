@@ -1,0 +1,23 @@
+cmd_Release/obj.target/frame-clip/src/frame-clip.o := c++ -o Release/obj.target/frame-clip/src/frame-clip.o ../src/frame-clip.cpp '-DNODE_GYP_MODULE_NAME=frame-clip' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_GLIBCXX_USE_CXX11_ABI=1' '-D_DARWIN_USE_64_BIT_INODE=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DOPENSSL_THREADS' '-DNAPI_DISABLE_CPP_EXCEPTIONS' '-DBUILDING_NODE_EXTENSION' -I/Users/hernan/Library/Caches/node-gyp/23.11.0/include/node -I/Users/hernan/Library/Caches/node-gyp/23.11.0/src -I/Users/hernan/Library/Caches/node-gyp/23.11.0/deps/openssl/config -I/Users/hernan/Library/Caches/node-gyp/23.11.0/deps/openssl/openssl/include -I/Users/hernan/Library/Caches/node-gyp/23.11.0/deps/uv/include -I/Users/hernan/Library/Caches/node-gyp/23.11.0/deps/zlib -I/Users/hernan/Library/Caches/node-gyp/23.11.0/deps/v8/include -I/Users/hernan/Desktop/git/node-clip-cpp/node_modules/node-addon-api -I/Users/hernan/Desktop/git/node-clip-cpp/clip.cpp -I/Users/hernan/Desktop/git/node-clip-cpp/clip.cpp/ggml/include -I/Users/hernan/Desktop/git/node-clip-cpp/clip.cpp/ggml/include/ggml  -O3 -gdwarf-2 -fno-strict-aliasing -mmacosx-version-min=11.0 -arch arm64 -Wall -Wendif-labels -W -Wno-unused-parameter -std=gnu++20 -stdlib=libc++ -fno-rtti -fno-exceptions -std=c++17 -fexceptions -Wno-unused-variable -Wno-sign-compare -Wno-ignored-qualifiers -Wno-sometimes-uninitialized -MMD -MF ./Release/.deps/Release/obj.target/frame-clip/src/frame-clip.o.d.raw   -c
+Release/obj.target/frame-clip/src/frame-clip.o: ../src/frame-clip.cpp \
+  /Users/hernan/Desktop/git/node-clip-cpp/clip.cpp/clip.h \
+  /Users/hernan/Desktop/git/node-clip-cpp/clip.cpp/ggml/include/ggml/ggml.h \
+  /Users/hernan/Desktop/git/node-clip-cpp/node_modules/node-addon-api/napi.h \
+  /Users/hernan/Library/Caches/node-gyp/23.11.0/include/node/node_api.h \
+  /Users/hernan/Library/Caches/node-gyp/23.11.0/include/node/js_native_api.h \
+  /Users/hernan/Library/Caches/node-gyp/23.11.0/include/node/js_native_api_types.h \
+  /Users/hernan/Library/Caches/node-gyp/23.11.0/include/node/node_api_types.h \
+  /Users/hernan/Desktop/git/node-clip-cpp/node_modules/node-addon-api/napi-inl.h \
+  /Users/hernan/Desktop/git/node-clip-cpp/node_modules/node-addon-api/napi-inl.deprecated.h \
+  /Users/hernan/Desktop/git/node-clip-cpp/clip.cpp/stb_image.h
+../src/frame-clip.cpp:
+/Users/hernan/Desktop/git/node-clip-cpp/clip.cpp/clip.h:
+/Users/hernan/Desktop/git/node-clip-cpp/clip.cpp/ggml/include/ggml/ggml.h:
+/Users/hernan/Desktop/git/node-clip-cpp/node_modules/node-addon-api/napi.h:
+/Users/hernan/Library/Caches/node-gyp/23.11.0/include/node/node_api.h:
+/Users/hernan/Library/Caches/node-gyp/23.11.0/include/node/js_native_api.h:
+/Users/hernan/Library/Caches/node-gyp/23.11.0/include/node/js_native_api_types.h:
+/Users/hernan/Library/Caches/node-gyp/23.11.0/include/node/node_api_types.h:
+/Users/hernan/Desktop/git/node-clip-cpp/node_modules/node-addon-api/napi-inl.h:
+/Users/hernan/Desktop/git/node-clip-cpp/node_modules/node-addon-api/napi-inl.deprecated.h:
+/Users/hernan/Desktop/git/node-clip-cpp/clip.cpp/stb_image.h:

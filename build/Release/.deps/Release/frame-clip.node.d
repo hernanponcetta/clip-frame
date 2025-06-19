@@ -1,0 +1,1 @@
+cmd_Release/frame-clip.node := c++ -bundle -undefined dynamic_lookup -Wl,-search_paths_first -mmacosx-version-min=11.0 -arch arm64 -L./Release -stdlib=libc++  -o Release/frame-clip.node Release/obj.target/frame-clip/src/frame-clip.o Release/obj.target/frame-clip/clip.cpp/clip.o Release/obj.target/frame-clip/clip.cpp/ggml/src/ggml.o Release/nothing.a 
