@@ -1,1 +1,1 @@
-export { imagesToEmbeddings, textToEmbedding } from "./frame-clip";
+export * from "./frame-clip";

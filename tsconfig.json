@@ -2,7 +2,7 @@
   "compilerOptions": {
     "module": "ESNext",
     "target": "ES2022",
-    "moduleResolution": "Bundler",
+    "verbatimModuleSyntax": false,
     "outDir": "./dist",
     "esModuleInterop": true,
     "declaration": true,
